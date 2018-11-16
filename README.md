@@ -8,7 +8,7 @@
 
 You can use the default terraform.tfvars.example file (just need to add AWS keys and remove the .example from the file name). If you prefere to use cmd arguments, that's up to you.
 
-Go in the `backend.tf` file and *comment* the following block of code
+Go in the `backend.tf` file and **comment** the following block of code
 
 ```tf
 terraform {
@@ -40,7 +40,7 @@ Create the S3 bucket and DynamoDB table
 terraform apply -auto-approve
 ```
 
-Go in the `backend.tf` file and *uncomment* the following block of code
+Go in the `backend.tf` file and **uncomment** the following block of code
 
 ```tf
 terraform {
